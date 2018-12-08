@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity"
+    android:stretchColumns=""><!-- have all columns shrink-->
+
+    <!--having tableRow using a wrap_content-->
+    <TableRow
+        android:layout_width= "wrap_content"
+        android:layout_height= "wrap_content"
+        android:padding="5dip" >
+
+        <Button
+            android:text="Item 1"
+            android:id="@+id/butitem1"
+            />
+        <TextView
+            android:text="Text 1"
+            android:id="@+id/butitem2"
+            />
+        <Button
+            android:text="Item 5 "
+            android:id="@+id/but"
+            />
+        <TextView
+            android:text="Text 5"
+            android:id="@+id/buti8"
+            />
+
+    </TableRow>
+    <TableRow
+    android:layout_width= "wrap_content"
+    android:layout_height= "wrap_content"
+    android:padding="5dip">
+
+    <Button
+        android:text="Item 2 "
+        android:id="@+id/butitem3"
+        />
+    <TextView
+        android:text="Text 2"
+        android:id="@+id/butitem4"
+        />
+        <Button
+            android:text="Item 6 "
+            android:id="@+id/butite"
+            />
+        <TextView
+            android:text="Text 6"
+            android:id="@+id/butit8"
+            />
+
+    </TableRow>
+    <TableRow
+        android:layout_width= "wrap_content"
+        android:layout_height= "wrap_content"
+        android:padding="5dip">
+
+        <Button
+            android:text="Item 3"
+            android:id="@+id/butitem5"
+            />
+
+        <TextView
+            android:text="Text 3"
+            android:id="@+id/butitem6"
+            />
+        <Button
+            android:text="Item 7 "
+            android:id="@+id/butit"
+            />
+        <TextView
+            android:text="Text 7"
+            android:id="@+id/butitem"
+            />
+    </TableRow>
+    <TableRow
+        android:layout_width= "wrap_content"
+        android:layout_height= "wrap_content"
+        android:padding="5dip">
+
+        <Button
+            android:text="Item 4"
+            android:id="@+id/butitem7"
+            />
+        <TextView
+            android:text="Text 4"
+            android:id="@+id/butitem8"
+            />
+        <Button
+            android:text="Item 8 "
+            android:id="@+id/buti"
+            />
+        <TextView
+            android:text="Text 8"
+            android:id="@+id/butitm8"
+            />
+
+
+    </TableRow>
+
+</TableLayout>
