@@ -6,7 +6,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     tools:context=".MainActivity"
-    android:stretchColumns="3"  
+    android:stretchColumns="3"
     android:shrinkColumns="1"
     android:collapseColumns="1">
     <!-- have all columns shrink-->
